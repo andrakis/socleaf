@@ -128,3 +128,26 @@ This is rather involved, but highlights a few things:
 * The ability to reply with a "success" or "failure" notification to mark something as the required solution, and notify everyone else to do this so they won't run into it also.
 
 In this way, a fault tolerent system can "call back home" to notify of issues, get more detailed reports, and if a solution is available, attempt it. If the solution works, then notify everyone else using that code to do that so they won't run into the issue.
+
+What's your point?
+------------------
+So far, this reads very much like the typical way software is produced and maintained. But it also means that it can take several long iterations to finally identify, reproduce, and solve an issue.
+
+However, much of this process can be automated, to a certain degree. Eventually, human intervention will be required, but if we can gather enough information through automated services then we can reach a solution quicker.
+
+We can further reduce time it takes to resolve an issue if we stick to a method of creating simple functions and methods that do one thing, and do it well. These methods should be reused everywhere, rather than being incorporated into large functions.
+
+Eventually, this should mean that a problem identified and fixed will mean it will never be a problem again, if programmed correctly.
+
+This does mean we'd have to move away from the current often-used method of writing large functions that do a lot of processing and such, to a more centralized "database" of functions.
+
+There are a few programming languages that lean towards this paradigm (my favourite being Erlang), and it is something often overlooked - especially by new programmers.
+
+However, if implemented correctly, problems can be fixed in a simple manner that reverberates across everything that uses those functions.
+
+This is however not in the scope of what I wish to discuss, though I may cover it later.
+
+There are still ways we can work with the current common way of programming that does not utilize the aforementioned programming paradigms, though they are what I'd like to use later.
+
+---
+This article is unfinished, and I shall continue it later.
